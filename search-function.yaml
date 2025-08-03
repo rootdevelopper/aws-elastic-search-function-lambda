@@ -6,9 +6,9 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: sample.lambda_handler
-      Runtime: python3.9
+      Runtime: python3.10
       CodeUri: .
       Description: ''
       MemorySize: 128
       Timeout: 300
-      Role: 'arn:aws:iam::844028273225:role/lambda_s3'
+      Role: 'arn:aws:iam::061051230398:role/gl-lambda-execution-role'
